@@ -1,0 +1,22 @@
+{
+  "name": "@donghoonyoo/route53-ddns",
+  "version": "1.0.0",
+  "description": "DDNS with AWS Route 53",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donghoony1/Route53-DDNS.git"
+  },
+  "author": "DongHoon, Yoo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/donghoony1/Route53-DDNS/issues"
+  },
+  "homepage": "https://github.com/donghoony1/Route53-DDNS#readme",
+  "private": "true",
+  "dependencies": {
+    "aws-sdk": "^2.817.0",
+    "log4js": "^6.3.0",
+    "public-ip": "^4.0.3"
+  }
+}

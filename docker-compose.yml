@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  route53-ddns:
+    image: docker.pkg.github.com/donghoony1/route53-ddns/route53-ddns:1.0.0
+    environment:
+      - AWS_ACCESS_KEY_ID=<AWS Access Key Id goes here>
+      - AWS_SECRET_ACCESS_KEY=<AWS Access Key Id goes here>
+      - hosted_zone_id=<AWS Route 53 hosted zone id goes here>
+      - name=<Name goes here>
